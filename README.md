@@ -1,4 +1,3 @@
-# Docker-HelloWorld-Python-Java-Go
 # Docker Setup and Hello World Projects
 
 This repository documents the installation of Docker and building/running simple Hello World applications in **Python**, **Java**, and **Go** using Docker.
@@ -29,6 +28,22 @@ sudo chmod +x /usr/local/lib/docker/cli-plugins/docker-compose
 
 # Verify installation
 docker compose version
+```
+
+---
+
+## 🔧 Git Installation & Configuration
+
+```bash
+# Install Git
+sudo yum install git -y
+
+# Configure Git user
+git config --global user.name "Saikiran Asamwar"
+git config --global user.email "saikiranasamwar@gmail.com"
+
+# Verify Git configuration
+git config --list
 ```
 
 ---
